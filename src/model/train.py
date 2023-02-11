@@ -17,7 +17,7 @@ def main(args):
     # read data
     df = get_csvs_df(args.training_data)
 
-    # split data
+def split data(args):
     X_train, X_test, y_train, y_test = split_data(df)
 
     # train model
